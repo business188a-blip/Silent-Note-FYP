@@ -1,0 +1,44 @@
+{
+  "exported_at": "2026-04-12T22:24:43.575278",
+  "title": "Pipeline Test",
+  "started_at": "2026-04-12T17:24:41.403967+00:00",
+  "ended_at": null,
+  "duration_sec": 300,
+  "language": "en",
+  "speaker_count": 2,
+  "emotion": {
+    "label": "neutral",
+    "confidence": 1.0
+  },
+  "summary": "Alice should send the quarterly budget report to the board by Friday. We decided to increase the marketing budget by fifteen percent. The management approved a budget of five hundred thousand rupees for renovation.",
+  "decisions": [
+    "We decided to increase the marketing budget by fifteen percent.",
+    "The team agreed to hold weekly check-ins every Tuesday at ten AM.",
+    "We confirmed that the office move-in date is the fifteenth of next month.",
+    "The management approved a budget of five hundred thousand rupees for renovation."
+  ],
+  "action_items": [
+    {
+      "text": "",
+      "assignee": "",
+      "done": false
+    },
+    {
+      "text": "",
+      "assignee": "",
+      "done": false
+    },
+    {
+      "text": "",
+      "assignee": "",
+      "done": false
+    },
+    {
+      "text": "",
+      "assignee": "",
+      "done": false
+    }
+  ],
+  "transcript": "Alice should send the quarterly budget report to the board by Friday. We decided to increase the marketing budget by fifteen percent. Bob must review all vendor contracts before the end of this month. The team agreed to hold weekly check-ins every Tuesday at ten AM. Everyone needs to submit their department goals by Thursday. Sara will schedule the technical interviews for shortlisted candidates. We confirmed that the office move-in date is the fifteenth of next month. The management approved a budget of five hundred thousand rupees for renovation.",
+  "snapshots": []
+}

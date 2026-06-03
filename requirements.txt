@@ -1,0 +1,64 @@
+# SilentNote dependencies
+# Updated: 2026-05-16
+# Python: 3.10 on Windows 10/11
+
+# PyTorch CPU wheels. Keep torch and torchaudio matched.
+# torch 2.12.0+cpu exists, but torchaudio CPU is latest at 2.11.0+cpu.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Core speech-to-text
+openai-whisper==20250625
+torch==2.11.0+cpu
+torchaudio==2.11.0+cpu
+
+# Audio capture, conversion, and denoising
+pyaudio==0.2.14
+sounddevice==0.5.5
+soundfile==0.13.1
+pydub==0.25.1
+DeepFilterNet==0.5.6
+packaging==23.2
+
+# NLP and language support
+spacy==3.8.14
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+nltk==3.9.4
+arabic-reshaper==3.0.1
+python-bidi==0.6.10
+
+# Optional speaker diarization
+pyannote.audio==4.0.4
+pyannote.core==6.0.1
+pyannote.database==6.1.1
+pyannote.metrics==4.1
+pyannote.pipeline==4.0.0
+speechbrain==1.1.0
+
+# Optional offline voice commands
+SpeechRecognition==3.16.1
+pocketsphinx==5.1.0
+
+# Emotion detection
+transformers==5.8.1
+
+# Computer vision and snapshots
+opencv-python==4.13.0.92
+Pillow==12.2.0
+pyautogui==0.9.54
+
+# Database and encryption
+cryptography==48.0.0
+
+# Export
+reportlab==4.5.1
+python-docx==1.2.0
+
+# GUI
+PyQt5==5.15.11
+pyqtgraph==0.14.0
+
+# Utilities and data
+click==8.3.3
+typer==0.25.1
+numpy==2.2.6
+pandas==2.3.3
